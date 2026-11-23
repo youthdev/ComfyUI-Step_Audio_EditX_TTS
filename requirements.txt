@@ -29,6 +29,8 @@ openai-whisper>=20231117
 # autoawq>=0.2.0
 # bitsandbytes>=0.41.0
 
+six>=1.17.0
+
 # Note: numpy, torch, pillow should already be installed by ComfyUI
 # funasr is NOT required - we use bundled funasr_detach instead
 # torchcodec is NOT required - soundfile handles all audio I/O
