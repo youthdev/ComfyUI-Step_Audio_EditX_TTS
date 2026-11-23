@@ -79,7 +79,9 @@ cd Step-Audio-EditX
 
 # Download BOTH repositories from HuggingFace
 git clone https://huggingface.co/stepfun-ai/Step-Audio-EditX
+cd Step-Audio-EditX && git lfs pull
 git clone https://huggingface.co/stepfun-ai/Step-Audio-Tokenizer
+cd Step-Audio-Tokenizer && git lfs pull
 ```
 
 **Required Folder Structure:**
